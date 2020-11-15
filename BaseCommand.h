@@ -14,7 +14,7 @@ public:
 	Ship* GetBaseCommandShip() { return BaseCommandShip; }
 	float GetTimeDelay() { return _timeDelay; }
 	// pure virtual Execute method
-	virtual void Execute() {};
+	virtual void Execute() = 0 {};
 
 };
 

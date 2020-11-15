@@ -44,7 +44,7 @@ public:
 	float GetAfterburner() const;
 
 	// interface methods
-	void Heartbeat(float _delta);
+	virtual void Heartbeat(float _delta)=0;
 };
 
 #endif

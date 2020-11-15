@@ -65,7 +65,18 @@
     <ClCompile Include="Model\Boss.cpp">
       <Filter>Model</Filter>
     </ClCompile>
-    <ClCompile Include="BaseCommand.cpp" />
+    <ClCompile Include="MotherShip.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCommand.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadingCommand.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Velocity.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Model\BaseObject.h">
@@ -135,7 +146,18 @@
     </ClInclude>
     <ClInclude Include="ShopState.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="BaseCommand.h" />
+    <ClInclude Include="MotherShip.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCommand.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadingCommand.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Velocity.h">
+      <Filter>Model</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="game.ico" />
