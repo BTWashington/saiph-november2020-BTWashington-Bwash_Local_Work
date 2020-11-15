@@ -179,6 +179,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseCommand.cpp" />
     <ClCompile Include="EntryState.cpp" />
     <ClCompile Include="ExitState.cpp" />
     <ClCompile Include="MenuState.cpp" />
@@ -219,6 +220,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractState.h" />
+    <ClInclude Include="BaseCommand.h" />
     <ClInclude Include="EntryState.h" />
     <ClInclude Include="ExitState.h" />
     <ClInclude Include="Model\BaseObject.h" />
