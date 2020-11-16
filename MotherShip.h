@@ -19,7 +19,7 @@ class MotherShip :
     // Override the Heartbeat
     void Heartbeat(float delta) {
 
-        if(MotherFleet[])
+        if()
     }
 
 

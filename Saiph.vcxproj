@@ -187,6 +187,7 @@
     <ClCompile Include="Model\BaseObject.cpp" />
     <ClCompile Include="Model\Boss.cpp" />
     <ClCompile Include="Model\Bullet.cpp" />
+    <ClCompile Include="Model\Deflector.cpp" />
     <ClCompile Include="Model\Effect.cpp" />
     <ClCompile Include="Model\Enemy.cpp" />
     <ClCompile Include="Model\HUD.cpp" />
@@ -230,6 +231,7 @@
     <ClInclude Include="Model\BaseObject.h" />
     <ClInclude Include="Model\Boss.h" />
     <ClInclude Include="Model\Bullet.h" />
+    <ClInclude Include="Model\Deflector.h" />
     <ClInclude Include="Model\Effect.h" />
     <ClInclude Include="Model\Enemy.h" />
     <ClInclude Include="Model\HUD.h" />
