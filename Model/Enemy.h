@@ -7,9 +7,10 @@
 #ifndef ENEMY_H
 #define ENEMY_H
 
+
 class Ship;
 
-class Enemy
+class Enemy: public Subject
 {
 	bool tempBehavior;				// true = temporary behavior is in use, false = initial behavior
 	bool fireReady;					// The enemy is ready to fire

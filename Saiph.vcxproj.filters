@@ -77,6 +77,11 @@
     <ClCompile Include="Velocity.cpp">
       <Filter>Model</Filter>
     </ClCompile>
+    <ClCompile Include="Model\StickyBomb.cpp" />
+    <ClCompile Include="Model\Observer.cpp" />
+    <ClCompile Include="Subject.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Model\BaseObject.h">
@@ -156,6 +161,11 @@
       <Filter>Model</Filter>
     </ClInclude>
     <ClInclude Include="Velocity.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\StickyBomb.h" />
+    <ClInclude Include="Model\Observer.h" />
+    <ClInclude Include="Subject.h">
       <Filter>Model</Filter>
     </ClInclude>
   </ItemGroup>

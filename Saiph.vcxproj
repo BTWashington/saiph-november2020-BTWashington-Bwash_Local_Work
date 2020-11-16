@@ -197,10 +197,13 @@
     <ClCompile Include="Model\Ship.cpp" />
     <ClCompile Include="Model\SpawnPoint.cpp" />
     <ClCompile Include="LevelState.cpp" />
+    <ClCompile Include="Model\StickyBomb.cpp" />
     <ClCompile Include="MotherShip.cpp" />
+    <ClCompile Include="Model\Observer.cpp" />
     <ClCompile Include="RandomFloat.cpp" />
     <ClCompile Include="SaiphApp.cpp" />
     <ClCompile Include="ShopState.cpp" />
+    <ClCompile Include="Subject.cpp" />
     <ClCompile Include="Velocity.cpp" />
     <ClCompile Include="View\Layer.cpp" />
     <ClCompile Include="View\ViewManager.cpp" />
@@ -238,9 +241,12 @@
     <ClInclude Include="Model\ProgressBar.h" />
     <ClInclude Include="Model\Ship.h" />
     <ClInclude Include="Model\SpawnPoint.h" />
+    <ClInclude Include="Model\StickyBomb.h" />
     <ClInclude Include="MotherShip.h" />
+    <ClInclude Include="Model\Observer.h" />
     <ClInclude Include="ShopState.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Subject.h" />
     <ClInclude Include="Velocity.h" />
     <ClInclude Include="View\Layer.h" />
     <ClInclude Include="View\ViewManager.h" />

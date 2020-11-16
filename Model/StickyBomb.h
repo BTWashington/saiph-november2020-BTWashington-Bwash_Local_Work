@@ -22,7 +22,7 @@ public:
 	// interface methods
 	virtual void CollisionResponse();	// stop
 	virtual void Heartbeat(float _delta);	// seek or stick
-	virtual void Notification(ObserverEvent _state);	// explode
+	void Notification(ObserverEvent _state);	// explode
 };
 
 #endif
